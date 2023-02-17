@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import style from "../css/chat.module.css";
 import { BsChatRight } from "react-icons/bs";
-import { FiIconName } from 'react-icons/fi';
 
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { useContext } from "react";
@@ -10,11 +9,11 @@ import { AppContest } from "../contestApi/ContestProvider";
 const Chat = () => {
   const { data, loading, error, getAllData } = useContext(AppContest); // getting data from contest api
   const [hide, setHide] = useState(false);
+  getAllData();
 
   useEffect(() => {
-    getAllData();
   }, []);
-
+  
   // -------- loading ---------
   if (loading) {
     return <h3 style={{ color: "teal" }}>Loading....</h3>;

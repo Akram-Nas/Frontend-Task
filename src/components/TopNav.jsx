@@ -4,7 +4,7 @@ import style from "../css/homepage.module.css";
 import ProfileDetails from "../page/ProfileDetails";
 
 const TopNav = () => {
-  const { profileData, setShowProfile, showProfile, getFilterData } =
+  const { profileData, setShowProfile, showProfile,  getFilterData} =
     useContext(AppContest); // getting data from contest api
 
   // ------------ (fetching data with param id)---------

@@ -8,7 +8,7 @@ import { AppContest } from "../contestApi/ContestProvider";
 import style from "../css/homepage.module.css";
 
 const HomePage = () => {
-  const { profileData, getFilterData, setShowProfile, showProfile } =
+  const { profileData, getFilterData, setShowProfile,} =
     useContext(AppContest); // getting data from contest api
   const { id } = useParams();
   sessionStorage.setItem("id", id);
