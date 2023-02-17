@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Frontend-Task/static/css/main.06d19c68.css",
+    "main.js": "/Frontend-Task/static/js/main.de2f4c11.js",
+    "static/media/Background.png": "/Frontend-Task/static/media/Background.cd41577c2899aefd3fb0.png",
+    "index.html": "/Frontend-Task/index.html",
+    "main.06d19c68.css.map": "/Frontend-Task/static/css/main.06d19c68.css.map",
+    "main.de2f4c11.js.map": "/Frontend-Task/static/js/main.de2f4c11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06d19c68.css",
+    "static/js/main.de2f4c11.js"
+  ]
+}
